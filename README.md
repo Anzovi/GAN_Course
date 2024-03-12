@@ -6,6 +6,8 @@
 3. Обучен имплементированный GAN
 4. Сходимости не добился (буду дальше пытаться)
 
+
 Весь код не отображается на гите, поэтому ссылка на Colab: https://drive.google.com/file/d/1Qms7DY9bYVezb6PIEi4tBTMMuoEBDWtG/view?usp=sharing
+https://drive.google.com/file/d/1Qms7DY9bYVezb6PIEi4tBTMMuoEBDWtG/view?usp=sharing
 Как написал в отчете не уверен в правильности CSPup блока, если все ок, то буду продолжать пробовать получить сходимость
 Ссылка на wandb: https://api.wandb.ai/links/anzovitte/6znowx8r
