@@ -4,9 +4,9 @@
 1. Имплементирован CSPup блок
 2. Имплементирован генератор по заданной архитектуре (без первого слоя 4x4x1024, тк в противном случае выкидывает CUDA out of memory)
 3. Обучен имплементированный GAN
-4. Сходимости не добился (буду дальше пытаться)
+4. Вроде как некоторую сходимость получил
 
 
-Весь код не отображается на гите, поэтому ссылка на Colab: https://colab.research.google.com/drive/1-ixzutXMwgCQhEdN_3xWFCeYv59tsmx6?authuser=1#scrollTo=nviYiYjLcFVY
+Весь код не отображается на гите, поэтому ссылка на Colab: https://colab.research.google.com/drive/1kBS2nW1dYEVV8CVTWg2aI7mEsmekXrPa?authuser=1
 Как написал в отчете не уверен в правильности CSPup блока, если все ок, то буду продолжать пробовать получить сходимость
 Ссылка на wandb: https://api.wandb.ai/links/anzovitte/6znowx8r
