@@ -1,0 +1,16 @@
+PIL==9.4.0
+google==NA
+ipywidgets==7.7.1
+lpips==NA
+matplotlib==3.7.1
+numpy==1.25.2
+oauth2client==4.1.3
+pandas==1.5.3
+pydrive==NA
+pytorch_msssim==NA
+session_info==1.0.0
+sklearn==1.2.2
+stylegan2_models==NA
+torch==2.2.1+cu121
+torchvision==0.17.1+cu121
+tqdm==4.66.2
