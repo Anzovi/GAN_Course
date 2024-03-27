@@ -1,34 +1,50 @@
 # Глубокие генеративные модели (Deep Generative Models)  
 ## Зозуля Андрей Витальевич  
-## Описание задачи Лр 2  
 ## Ссылки  
 Colab: https://colab.research.google.com/drive/1QgV78P3ev67ywTDqN4mBwb-A1U0SuiPF?usp=sharing  
+Wandb: https://api.wandb.ai/links/anzovitte/y0sfurr6  
 
+# Описание задачи Лр 2  
 ## Подготовительные работы:  
 1.1 Кадрировать изображения для соответствия данным из трейна, блок (Align images)  
 1.2 Найти проекции изображений в пространстве StyleGAN, методами из ноутбука  
 1.3 Результат представить как таблицу оригинал и проекция, написать каким образом были получены, encoder, оптимизация, лоссы и тд  
 
-![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/StyleGAN_Preporations.png)  
+Подгонка тензора W+ под пространство генератора производилась с помощью Adam с использованием MSE и PerceptualSimilarity (LPIPS) лоссов (2 столбец).  
+Затем прогоняем исходное изображение через предтренерованный энкодер и получаем W* тензор размерностью 18x512, этот тензор прогоняем через генератор и получаем изображения (столбец 3).  
+Пробуем дооптимизировать полученный из энкодера тензор весов W* с помощью того же Adam и тех же лоссов (столбец 4).  
+
+И по изображением и по значением лоссов можно сказать что предварительная прогонка через энкодер улчшает итоговое качество изображений.
+
+Результат:  
+![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Preporations.png)  
+
+Латентное пространство признаков:  
+![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Face_Swap.png)  
 
 ## Style transfer  
 2.1 Изменяется цвет, свет, текстура, но человек должен остаться прежним  
 2.2 Пробуем самый простой метод для трансфера стиля с одного лица на другой с помощью смешивания векторов, хватит трех стилей (еще три изображения помимо базовых,не забывайте, что стили тоже надо спроецировать в латентное пространство)  
 2.3 Результат в виде таблицы с пояснениями какие брали индексы из вектора W+  
 
-![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/StyleGAN_Style_Transfer.png)  
+Были взяты индексы с 8 по 17, похоже именно он отвечают за цвет, свет и текстуру.  
+
+Результат:  
+![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Style_Transfer.png)  
 
 ## Expression Transfer  
 3.4 Три любые эмоции по аналогии с предыдущими пунктами  
 3.4 Результат в таблицу  
 
-![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/StyleGAN_Expression.png)  
+Результат:  
+![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Expression.png)  
 
 ## Face swap  
 4.1 В блоке Homework в ноутбуке, уже написан Arcface лосс (веса модели по ссылке) добавить его в пайплайн оптимизации и попробовать с помощью оптимизации градиента перенести личность с одной фотографии на другую сохраняя при этом угол поворота и цвет для исходного лица.  
 4.2 Cделать табличку пересадки лиц каждого с каждым  
 
-![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/StyleGAN_Face_Swap.png)  
+Результат:  
+![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Face_Swap.png)  
 
 
 
