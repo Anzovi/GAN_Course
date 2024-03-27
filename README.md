@@ -20,7 +20,7 @@ Wandb: https://api.wandb.ai/links/anzovitte/y0sfurr6
 ![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Preporations.png)  
 
 Латентное пространство признаков:  
-![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Face_Swap.png)  
+![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/hidden_Latent_Space.png)  
 
 ## Style transfer  
 2.1 Изменяется цвет, свет, текстура, но человек должен остаться прежним  
