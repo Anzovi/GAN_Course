@@ -30,10 +30,33 @@ Desert   |  Forest  |  Kitchen |  Moon |  Street
 ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/street-min.jpg)
 
 ## 3. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora  
+### Rank 2  
+
+Desert   |  Forest  |  Kitchen |  Moon |  Street
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/street-min.jpg)
+
+### Rank 8  
+
+Desert   |  Forest  |  Kitchen |  Moon |  Street
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/street-min.jpg)
+
+### Rank 24  
+
+Desert   |  Forest  |  Kitchen |  Moon |  Street
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/street-min.jpg)
 
 ## 4. Добавить в pipeline ControlNet  
+### Генерация положения частей тела под картину Моно Лизы  
+  
+Референс   |  Генерация  |
+:-------------------------:|:-------------------------:
+![](https://github.com/Anzovi/GAN_Course/blob/homework_4/ControlNet/Mona_ref.png)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/ControlNet/Mona.png) 
 
+### Генерация положения частей тела под позы йоги
+Референс   |  Генерация  |
+:-------------------------:|:-------------------------:
+![](https://github.com/Anzovi/GAN_Course/blob/homework_4/ControlNet/Yoga_ref.png)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/ControlNet/Yoga.png) 
 
-
-
-![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Preporations.png)
