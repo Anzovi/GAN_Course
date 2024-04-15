@@ -9,12 +9,19 @@
 обучение stable diffusion 1.5 с использованием LoRa (rank = 24) wandb: https://api.wandb.ai/links/anzovitte/tti5s4z2  
 
 1. Собрать датасет от 15 изображений одного персонажа, кропнуть и заресайзить лица
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/3_c66971e5.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/GettyImages.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/Margot-Robbi.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/Margot-Robbie.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/sd-aspect-1482916032-margotrobbiewhite.jpg)
-2. Скачать предобученный чекпоинт SD1.5 с civitai.com
-3. Обучить Stable diffusion 1.5.
-4. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora
-5. Добавить в pipeline ControlNet
+
+<p float="left">
+  <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/3_c66971e5.jpg" width="100" />
+  <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/GettyImages.jpg" width="100" /> 
+  <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/Margot-Robbi.jpg" width="100" />
+  <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/Margot-Robbie.jpg" width="100" />
+  <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/sd-aspect-1482916032-margotrobbiewhite.jpg" width="100" />
+</p>
+
+3. Скачать предобученный чекпоинт SD1.5 с civitai.com
+4. Обучить Stable diffusion 1.5.
+5. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora
+6. Добавить в pipeline ControlNet
 
 Solarized dark        |  Solarized Ocean  |  Solarized Ocean |  Solarized Ocean |  Solarized Ocean 
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
