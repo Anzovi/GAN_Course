@@ -7,8 +7,8 @@
 обучение stable diffusion 1.5 с использованием LoRa (rank = 2) wandb: https://api.wandb.ai/links/anzovitte/ih28b5wk  
 обучение stable diffusion 1.5 с использованием LoRa (rank = 8) wandb: https://api.wandb.ai/links/anzovitte/zvhzkabm  
 обучение stable diffusion 1.5 с использованием LoRa (rank = 24) wandb: https://api.wandb.ai/links/anzovitte/tti5s4z2  
-
-1. Собрать датасет от 15 изображений одного персонажа, кропнуть и заресайзить лица  
+# Выполнение работы
+## 1. Собрать датасет от 15 изображений одного персонажа, кропнуть и заресайзить лица  
 Кропнул и заресайзил, всего 27 изображений.
 
 <p float="left">  
@@ -19,7 +19,7 @@
   <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/sd-aspect-1482916032-margotrobbiewhite.jpg" width="100" />
 </p>  
 
-2. Скачать предобученный чекпоинт SD1.5 с civitai.com и обучить Stable diffusion 1.5.  
+## 2. Скачать предобученный чекпоинт SD1.5 с civitai.com и обучить Stable diffusion 1.5.  
 Использовались промты:
 
 --instance_prompt="a photo of sks woman face" токен на который мы хотим обучить персонажа  
@@ -29,9 +29,9 @@ Desert   |  Forest  |  Kitchen |  Moon |  Street
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/street-min.jpg)
 
-3. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora  
+## 3. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora  
 
-4. Добавить в pipeline ControlNet  
+## 4. Добавить в pipeline ControlNet  
 
 
 
