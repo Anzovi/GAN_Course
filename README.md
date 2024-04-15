@@ -8,24 +8,32 @@
 обучение stable diffusion 1.5 с использованием LoRa (rank = 8) wandb: https://api.wandb.ai/links/anzovitte/zvhzkabm  
 обучение stable diffusion 1.5 с использованием LoRa (rank = 24) wandb: https://api.wandb.ai/links/anzovitte/tti5s4z2  
 
-1. Собрать датасет от 15 изображений одного персонажа, кропнуть и заресайзить лица
+1. Собрать датасет от 15 изображений одного персонажа, кропнуть и заресайзить лица  
+Кропнул и заресайзил, всего 27 изображений.
 
-<p float="left">
+<p float="left">  
   <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/3_c66971e5.jpg" width="100" />
   <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/GettyImages.jpg" width="100" /> 
   <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/Margot-Robbi.jpg" width="100" />
   <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/Margot-Robbie.jpg" width="100" />
   <img src="https://github.com/Anzovi/GAN_Course/blob/homework_4/instance%20images/sd-aspect-1482916032-margotrobbiewhite.jpg" width="100" />
-</p>
+</p>  
 
-3. Скачать предобученный чекпоинт SD1.5 с civitai.com
-4. Обучить Stable diffusion 1.5.
-5. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora
-6. Добавить в pipeline ControlNet
+2. Скачать предобученный чекпоинт SD1.5 с civitai.com и обучить Stable diffusion 1.5.  
+Использовались промты:
 
-Solarized dark        |  Solarized Ocean  |  Solarized Ocean |  Solarized Ocean |  Solarized Ocean 
+--instance_prompt="a photo of sks woman face" токен на который мы хотим обучить персонажа  
+--class_prompt="a photo of woman face" промт для регуляризации  
+
+Desert   |  Forest  |  Kitchen |  Moon |  Street
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)  |  ![](https://...Ocean.png) |  ![](https://...Ocean.png) |  ![](https://...Ocean.png)
+![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/street-min.jpg)
+
+3. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora  
+
+4. Добавить в pipeline ControlNet  
+
+
 
 
 ![alt text](https://github.com/Anzovi/GAN_Course/blob/homework_3/imgs/StyleGAN_Preporations.png)
