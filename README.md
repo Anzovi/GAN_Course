@@ -31,7 +31,7 @@ Desert   |  Forest  |  Kitchen |  Moon |  Street
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/Dreambooth%20generated/street-min.jpg)
 
-### Вывод: На обучение потребовалось 37 мин. Удобный способ генерации изображений через фаин тюна SD, собенно если есть готовые изображения для class prompt, тогда получается всего ~37 мин на тюн SD. Хуже сработало когда тело генерировалось в полный рост, нужно было добавить больше medium изображений.  
+### Вывод: На обучение потребовалось 37 мин (class prompt уже был сгенерирован). Удобный способ генерации изображений через фаин тюн SD, собенно если есть готовые изображения для class prompt. Хуже сработало когда тело генерировалось в полный рост, нужно было добавить больше medium изображений.  
 
 ## 3. Обучить LoRA модель и сравнить лучший чекпоинт Unet и Lora  
 ### Rank 2  
