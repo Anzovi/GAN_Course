@@ -39,14 +39,14 @@ Desert   |  Forest  |  Kitchen |  Moon |  Street
 Desert   |  Forest  |  Kitchen |  Moon |  Street
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%202%20generated/street-min.jpg)
-### Время обучения 26m 35s  
+#### Время обучения 26m 35s  
 
 ### Rank 8  
 
 Desert   |  Forest  |  Kitchen |  Moon |  Street
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%208%20generated/street-min.jpg)  
-### Время обучения 26m 45s
+#### Время обучения 26m 45s
 
 ### Rank 24  
 
@@ -54,8 +54,8 @@ Desert   |  Forest  |  Kitchen |  Moon |  Street
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/desert-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/forest-min.jpg)  |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/kitchen-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/moon-min.jpg) |  ![](https://github.com/Anzovi/GAN_Course/blob/homework_4/LoRa%20rank%2024%20generated/street-min.jpg)  
   
-### На изображении леса есть артифакт - двойное изображение, вероятно иногда случается из-за не равенства соотношения сторон генерируемого изображения  
-### Время обучения 27m 18s  
+#### На изображении леса есть артифакт - двойное изображение, вероятно иногда случается из-за не равенства соотношения сторон генерируемого изображения  
+#### Время обучения 27m 18s  
   
 ### Вывод: в отличии от Dreambooth способа обучения LoRa обучает только часть модели - адаптеры под нужную задачу, а веса основной модели замораживаются, поэтому качество генерации немного падает. Также можно заметить, что с повышением параметра размера Lora --rank качество генерации улучшается, за счет увелечения количества обучаемых параметров, но и увеличивается время обучения. Разница между рангом 2 и 8 ещё какая-то видна, но для 8 и 24 сложно сказать какая генерация лучше. 
 
